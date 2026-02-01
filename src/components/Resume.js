@@ -3,7 +3,7 @@ import ResumeImg from '../assets/resume.jpg';
 
 export default function Resume(){
     const config = {
-        link: 'https://icseindia.org/document/sample.pdf'
+        link: '/Hamsiga Srikanthaverl - ATS.pdf'
     }
 
 
