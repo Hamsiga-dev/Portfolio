@@ -1,4 +1,4 @@
-import heroPic from "../assets/heroPic.jpg";
+import heroPic from "../assets/hero.png";
 import { AiOutlineLinkedin } from "react-icons/ai";
 
 export default function Hero(){
