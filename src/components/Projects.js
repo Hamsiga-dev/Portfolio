@@ -2,10 +2,10 @@ import websiteImg1 from '../assets/ecommerce-websites.jpg';
 import websiteImg2 from '../assets/food-ecommerce.jpg';
 import websiteImg3 from '../assets/website-blog.jpg';
 
-export default function Projects(){
+export default function Projects() {
 
     const config = {
-        projects : [
+        projects: [
             {
                 image: websiteImg1,
                 description: 'A Ecommerce Website. Built with MERN Stack.',
@@ -35,22 +35,22 @@ export default function Projects(){
         <div className="w-full">
             <div className='flex flex-col md:flex-row px-10 gap-5'>
                 {config.projects.map((project) => (
-                    <a href= {project.link}>
+                    <a href={project.link}>
                         <div className='relative'>
-                            <img className='h-[200px] w-[500px]' src={project.image}/>
+                            <img src={project.image} alt={`${project.title} screenshot`} />
                             <div className='project-desc'>
                                 <p className='text-center px-5 py-5'>{project.description}</p>
                                 <div className='flex justify-center'>
                                     <a className='btn' target=' _blank' href={project.link}> View Project</a>
                                 </div>
-                            
+
                             </div>
 
                         </div>
                     </a>
                 ))}
 
-                
+
             </div>
 
         </div>
