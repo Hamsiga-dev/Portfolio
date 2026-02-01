@@ -1,4 +1,4 @@
-import AboutImg from '../assets/about.png';
+import profilePic from "../assets/profilePic.jpg"; 
 
 
 export default function About(){
